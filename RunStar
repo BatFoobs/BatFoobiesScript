@@ -1,5 +1,3 @@
---------------------------------library------------------------------------
-
 local DiscordLib = loadstring(game:HttpGet "https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
 
 local win = DiscordLib:Window("discord library")
@@ -11,9 +9,6 @@ local info = serv:Channel("Info")
 info:Label("Created By BatFoobies.")
 info:Label("dsc.gg/batfoobies")
 info:Label("Join discord for more scripts!")
-
-
---------------------------------Functions------------------------------------
 
 DeletePet = false
 
@@ -52,8 +47,6 @@ local function Threadmill(ass) -- run on threadmill
     game:GetService("ReplicatedStorage").Remotes.Shoe.Claim:FireServer()
 end
 
-
-----------------------------------UI functionality-------------------------------------------------
 local tgls = serv:Channel("Auto-Farm")
 
 tgls:Label("World 1.")
